@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+ 
+}
+body {
+  background-color: #000;
+}
+#img-display {
+  border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-radius: 10px;
+    margin-left: 15vw;
+    width: 70vw;
+    height: 45vh;
+    background-position: center ;
+    background-size: cover;
+    object-fit: center;
+
+
+
+
+
+}
+.swiper-slide {
+  border-left: 3px solid #fff;
+   border-right: 3px solid #fff;
+  height: 36vh; 
+  width: auto; 
+  background-position: center ;
+    background-size: cover;
+    object-fit: center;
+    border-radius: 10px;
+}
+    
+
+.disp {
+  font-size: 2rem;
+  font-family: cursive;
+  background: linear-gradient(90deg,#0000FF,#fff,#800080);
+  -webkit-background-clip: text;
+  color: transparent;
+  }
+  .info-name {
+    color: #fff;
+  }
+  .info-price {
+    color: #fff;
+  }
